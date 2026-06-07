@@ -17,24 +17,49 @@
 
 ## PROGRAM:
  ```
-/*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Arunsamy D
+RegisterNumber: 212224240016
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
+import java.util.Scanner;
 
+class s1{
 
+   void Oddsum(int number)
+   {
+      int i = 1, sum = 0;
+      while(i <= number) 
+         {
+               sum += i;
+               i++;
+         }
+   
+      System.out.println("Sum = " + sum);
+    } 
 
+ 
+}
 
-
-
+public class Odd_sum{
+	public static void main(String args[])
+	{
+	   int number;  
+      
+      Scanner sc = new Scanner(System.in);
+      number=sc.nextInt();
+      s1 obj=new s1();
+      obj.Oddsum(number);
+	}
+}
+```
 
 ## OUTPUT:
 
-
+![alt text](442042078-d2bdb78c-2179-410d-bafb-bc39849f3944.png)
 
 ## RESULT:
 Thus the java program to find factorial of number using class and object concepts and apply the has-a relationship was executed successfully.

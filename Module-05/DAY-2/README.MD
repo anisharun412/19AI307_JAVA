@@ -76,7 +76,7 @@ public static void main(String args[]){
 
 ## OUTPUT:
 
-
+![alt text](442039407-97aed7f4-ff6f-4723-a100-ee4c84c03230.png)
 
 ## RESULT:
 Thus a java program to display the value of volume of cylinder get the radius and height value as input and use tightly encapsulated class was executed successfully.
