@@ -24,20 +24,54 @@ To Create a java program to display the value of volume of cylinder get the radi
 
 
 ## PROGRAM:
- ```
-/*
+ ```\
 Program to implement a tightly encapsulated class using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Arunsamy D
+RegisterNumber: 212224240016
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+public class SetAndGet {
+ 
+ private int w;
+ private int h;
 
 
+public int getWidth() {
+ return w;
+}
+
+public void setWidth(int w) {
+ this.w = w;
+}
+
+public int getHeight() {
+ return h;
+}
+
+public void setHeight(int h) {
+ this.h = h;
+}
 
 
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+ SetAndGet obj = new SetAndGet();
+ int s1=sc.nextInt();
+ int s2=sc.nextInt();
+ 
+ obj.setWidth(s1);
+ obj.setHeight(s2);
+ System.out.println(obj.getWidth() * obj.getHeight());
+
+}
+
+
+}
+```
 
 
 ## OUTPUT:
