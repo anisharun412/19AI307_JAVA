@@ -93,7 +93,7 @@ public class Main {
 
 ## OUTPUT:
 
-
+![alt text](442037227-95876ad0-745d-41ed-bc25-ebea981359b8.png)
 
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
