@@ -1,3 +1,4 @@
+
 # Ex.No:3(C)    STRING BUILDER IN JAVA
 
 ## AIM:
@@ -21,24 +22,37 @@ To Create a java program use replace() method replaces the given String from the
 
 ## PROGRAM:
  ```
-/*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Arunsamy D
+RegisterNumber: 212224240016
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.Scanner;
 
+public class StringLength {
+    public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
 
+        StringBuilder sb = new StringBuilder(input);
+
+        int length = sb.length();
+        System.out.println("The size of the String is " + length);
+
+        scanner.close();
+    }
+}
+```
 
 
 
 ## OUTPUT:
 
-
+<img width="732" height="192" alt="439192723-dccc1164-0826-4067-8155-f2ab1f8ab448" src="https://github.com/user-attachments/assets/d03cbe2a-e361-413e-aa52-5e04a148e174" />
 
 ## RESULT:
 Thus the java program use replace() method replaces the given String from the specified beginIndex and endIndex and use stringbuilder was executed successfully.
