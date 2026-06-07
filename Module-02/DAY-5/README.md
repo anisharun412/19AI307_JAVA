@@ -16,24 +16,44 @@ To write a Java program that reads an array size and elements from the user and 
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Smallest Element in an Array
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Arunsamy D
+RegisterNumber: 212224240016
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
+```java
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        Scanner in=new Scanner(System.in);
+        int size=in.nextInt();
+        int array[]=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            array[i]=in.nextInt();
+        }
+        int small=array[0];
+        for(int i=0;i<size;i++)
+        {
+            if(array[i]<small)
+            {
+                small=array[i];
+            }
+        }
+        System.out.print("Smallest Number = "+small);
+    }
+}
+```
 
 
 ## OUTPUT:
 
-
+<img width="637" height="390" alt="570588453-9614a6e4-6861-4a4f-b59d-5f0cd55b528d" src="https://github.com/user-attachments/assets/14ac9aec-0ca3-4588-8a7f-c51f43aaaa18" />
 
 ## RESULT:
 Thus the java program successfully reads the array size and elements from the user and correctly finds and prints the smallest number in the array.
